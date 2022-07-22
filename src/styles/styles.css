@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+
+
+.gif-container {
+    position: absolute;
+    width: 1080px;
+    height: 754px;
+    left: 420px;
+    top: 163px;
+    background-image: url(https://media.giphy.com/media/M8xY10RuAbQnGlqIqR/giphy.gif);
+    
+}
+
+.body-home {
+    position: relative;
+    top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 1080px;
+	background:rgba(241,236,233,1);
+    
+}
+
+.title-container {
+    position: absolute;
+	font-family: 'Inter';
+    font-style: normal;
+	font-size: 231.58px;
+    font-weight: 500;
+    top: -22px;
+	left: 1271px;
+	text-align: right;
+	line-height: 210px;
+	margin-top: -21.58px;
+	color:#181818;
+    
+}
+.center-container{
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 231.58px;
+    line-height: 210px;
+    width: 1660px;
+    height: 450px;
+    left: 46px;
+    top: 211px;
+    text-align: left;
+    padding-top: 29px;
+    margin-top: -25px; 
+    color:#181818;
+    
+}
+
+.construction-container {
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    width: 418px;
+    height: 101px;
+    left: 46px;
+    top: 711px;
+	overflow: hidden;
+	text-align: left;
+	color:#181818;
+    
+}
+
+.ig-container {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    position: absolute;
+    width: 130px;
+    height: 32px;
+    left: 45px;
+    top: 1000px;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height */
+    text-align: center;
+    text-decoration-line: underline;
+    color: #181818;
+}
+
+.behance-container {
+    position: absolute;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    width: 101px;
+    height: 32px;
+    left: 232px;
+    top: 1001px;
+    line-height: 32px;
+/* identical to box height */
+    text-align: center;
+    text-decoration-line: underline;
+    color: #181818;    
+}
+
+.brand-container {
+    position: absolute;
+    width: 308px;
+    height: 36px;
+    left: 806px;
+    top: 994px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #181818;
+}
+
+
+.paginator-container {
+    position: absolute;
+    width: 173px;
+    height: 32px;
+    left: 1702px;
+    top: 1001px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height */
+    text-align: center;
+    text-decoration-line: underline;
+    color: #FF4A59;
+}
+
+.vector-arrow {
+    position: absolute;
+    left: 368px;
+    top: 812px;
+}
+
+.vector-line {
+    position: absolute;
+    width: 1829px;
+    height: 669px;
+    left: 46px;
+    top: 206px;
+}
+
+.body-contact {
+    top: 0px;
+	left: 0px;
+	width: 1920px;
+	height: 1080px;
+	background:rgba(24,24,24,1);
+}
+
+.vector-exit {
+    position: absolute;
+    top: 21px;
+	left: 1709px;
+	width: 159px;
+	height: 159px;
+	background:rgba(255,255,255,0);
+}
+
+.vector-lines-contact {
+    position: absolute;
+    top: 206px;
+	left: 46px;
+	width: 1829px;
+	height: 669px;
+	background:rgba(255,255,255,0);
+}
+
+.contact-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 231.579px;
+    line-height: 210px;
+	width: 1890.7894744873px;
+	height: 585.7894744873px;
+	overflow: hidden;
+	text-align: left;
+	line-height: 210px;
+	padding-top: 21.58px;
+	margin-top: -21.58px;
+	color:#F1ECE9;
+}
+
+.contact-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: right;
+	margin-left: 1250px;
+    margin-top: 120px;
+	width: 620px;
+	height: 112px;
+	overflow: hidden;
+	color:#F1ECE9;
+}
+
+.email {
+	font-family: 'Inter';
+	font-size: 30px;
+	font-weight: bold;
+	text-align: right;
+	color:#F1ECE9;
+}
+
+.ig-container-contact {
+    position: absolute;
+    width: 130px;
+    height: 32px;
+    left: 46px;
+    top: 1001px;
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height */
+    text-align: center;
+    text-decoration-line: underline;
+    color: #F1ECE9;
+}
+
+.behance-container-contact {
+    position: absolute;
+    width: 101px;
+    height: 32px;
+    left: 232px;
+    top: 1001px;
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height */
+    text-align: center;
+    text-decoration-line: underline;
+    color: #F1ECE9;
+}
+
+.brand-container-contact {
+    position: absolute;
+    width: 308px;
+    height: 36px;
+    left: 806px;
+    top: 994px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #F1ECE9;
+}
+
+.paginator-container-contact {
+    position: absolute;
+    width: 173px;
+    height: 32px;
+    left: 1702px;
+    top: 1001px;
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height */
+    text-align: center;
+    text-decoration-line: underline;
+    color: #FF9BC0;
+}
