@@ -16,7 +16,7 @@ html, body {
     
 }
 
-.gif-container {
+#gif-container {
     position: absolute;
     width: 1250px;
     height: 754px;
