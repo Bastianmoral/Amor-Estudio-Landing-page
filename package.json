@@ -1,5 +1,6 @@
 {
-  "name": "react-router-tutorial",
+  "name": "amor-estudio-landing-page",
+  "homepage": "http://amorestudio.design",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

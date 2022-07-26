@@ -1,15 +1,17 @@
-import {BrowserRouter, Route, Routes} from 'react-router-dom'
+import * as React from "react";
 import Home from './Views/Home';
 import Contact from './Views/Contact';
+import { Routes, Route} from "react-router-dom";
 
-export default function App() {
+const App = () =>{
     return(
-        <BrowserRouter>
+        <div className="App">
             <Routes>
-                <Route path='/' element={<Home/>} />
-                <Route path='Contact' element={<Contact/>} />
-                
+                    <Route path='/' element={<Home/>} />
+                    <Route path='Contact' element={<Contact/>} />
             </Routes>
-        </BrowserRouter>
+        </div>
     );
-}
+};
+
+export default App;

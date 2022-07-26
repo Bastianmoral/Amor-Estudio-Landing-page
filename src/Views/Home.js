@@ -1,3 +1,6 @@
+import React from "react";
+import { Link } from "react-router-dom";
+
 export default function Home() {
   return  ( 
   <div class="body-home">
@@ -25,15 +28,16 @@ export default function Home() {
    <div class="brand-container" >
       Branding e Ilustración
   </div>
-  <a href="/Contact"class="paginator-container">
-      amor Estudio 
-</a>
-<div class="gif-container"></div>
-  
-
+  <div
+    id="gif-container"
+    className="gif-container"
+  >   </div>
+  <Link to="/Contact"class="paginator-container"> amor Estudio </Link>
 </main>
 
 </div>
+
 )
+
 }
 

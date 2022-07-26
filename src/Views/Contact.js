@@ -1,3 +1,7 @@
+import React from "react";
+import { Link } from "react-router-dom";
+
+
 export default function Contact() {
   return <div class="body-contact">
   <svg
@@ -11,8 +15,8 @@ export default function Contact() {
       d="M0 .5h1829M0 223.5h1829M0 446.5h1829M0 669.5h1829"
     />
   </svg>
+  <Link to="/">
   <svg
-    href="/Home"
     class="vector-exit"
     width="160"
     height="161"
@@ -20,6 +24,7 @@ export default function Contact() {
   >
     <path stroke="#F1ECE9" d="m.354.646 159 159M159.354 1.354l-159 159" />
   </svg>
+  </Link> 
   <div class="contact-title">
     haz las cosas con <b>amor</b>
   </div>
@@ -42,7 +47,7 @@ export default function Contact() {
   </a>
   {/* <img src="../skins/home/vector_1.png" class="vector-container" /> */}
   <div class="brand-container-contact">Branding e Ilustración</div>
-    <a href="/"class="paginator-container"> amor Estudio </a> 
+    <Link to="/"class="paginator-container"> amor Estudio </Link> 
 </div> 
 }
 

@@ -1,26 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
 
-
-.gif-container {
-    position: absolute;
-    width: 1080px;
-    height: 754px;
-    left: 420px;
-    top: 163px;
-    background-image: url(https://media.giphy.com/media/M8xY10RuAbQnGlqIqR/giphy.gif);
-    
-}
-
-.body-home {
+html, body {
     position: relative;
+    width: 1920px;
+    height: 1080px;
+}
+.body-home {
+    position: absolute;
     top: 0px;
 	left: 0px;
 	width: 1920px;
 	height: 1080px;
-	background:rgba(241,236,233,1);
+	background:#F1ECE9;;
     
 }
+
+.gif-container {
+    position: absolute;
+    width: 1250px;
+    height: 754px;
+    margin-top: 70px;
+    margin-left: 250px;
+    background-image: url(https://i.imgur.com/rATz5Yp.gif);
+}
+
 
 .title-container {
     position: absolute;
@@ -43,6 +47,7 @@
     font-weight: 300;
     font-size: 231.58px;
     line-height: 210px;
+    z-index:10;
     width: 1660px;
     height: 450px;
     left: 46px;
@@ -71,30 +76,30 @@
     
 }
 
-.ig-container {
-    font-family: 'Roboto';
+.ig-container, .ig-container-contact  {
+    font-family: 'Roboto Mono';
     font-style: normal;
     font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
     position: absolute;
     width: 130px;
     height: 32px;
-    left: 45px;
-    top: 1000px;
-    font-size: 24px;
-    line-height: 32px;
+    left: 46px;
+    top: 1001px;
     /* identical to box height */
     text-align: center;
     text-decoration-line: underline;
     color: #181818;
 }
 
-.behance-container {
+.behance-container, .behance-container-contact {
     position: absolute;
-    font-family: 'Roboto';
+    font-family: 'Roboto mono';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    width: 101px;
+    width: 130px;
     height: 32px;
     left: 232px;
     top: 1001px;
@@ -218,36 +223,10 @@
 }
 
 .ig-container-contact {
-    position: absolute;
-    width: 130px;
-    height: 32px;
-    left: 46px;
-    top: 1001px;
-    font-family: 'Roboto Mono';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 32px;
-    /* identical to box height */
-    text-align: center;
-    text-decoration-line: underline;
     color: #F1ECE9;
 }
 
 .behance-container-contact {
-    position: absolute;
-    width: 101px;
-    height: 32px;
-    left: 232px;
-    top: 1001px;
-    font-family: 'Roboto Mono';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 32px;
-    /* identical to box height */
-    text-align: center;
-    text-decoration-line: underline;
     color: #F1ECE9;
 }
 
